@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+
+if [ -x "$REPO_ROOT/setup_dirs.sh" ]; then
+  "$REPO_ROOT/setup_dirs.sh"
+elif [ -f "$REPO_ROOT/setup_dirs.bat" ]; then
+  cmd.exe /c "$(printf "%s" "$REPO_ROOT" | sed 's:/:\\:g')\\setup_dirs.bat"
+fi
+

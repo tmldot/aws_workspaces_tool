@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archives and local exports
+*.tar.gz
+*.zip
+
+# Project-specific ignores
+# Ignore everything inside inputs/ and logs/ except their own README.md placeholders
+inputs/*
+logs/*
+!inputs/README.md
+!logs/README.md
+
+# Local test / debug artifacts
+*.log
+*.tmp
+*.bak
+
