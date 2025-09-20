@@ -10,5 +10,5 @@ disable=
     too-many-arguments
 
 [LOGGING]
-logging-format-style=percent
+logging-format-style=new
 
