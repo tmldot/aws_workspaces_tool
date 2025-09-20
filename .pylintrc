@@ -1,0 +1,14 @@
+[FORMAT]
+max-line-length=120
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    too-many-locals,
+    too-many-branches,
+    too-many-statements,
+    too-many-arguments
+
+[LOGGING]
+logging-format-style=percent
+
