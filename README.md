@@ -21,7 +21,7 @@ Python CLI tool for managing Amazon WorkSpaces — resolve by name, start/stop i
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.12+
 - [boto3](https://pypi.org/project/boto3/)
 
 Install dependencies:
